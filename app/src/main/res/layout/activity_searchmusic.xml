@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchMusic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.lalalalala.searchmusic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/playListSearchMusic"
+            style="@style/activityButtonHorizontal"
+            android:text="@string/playlist" />
+
+        <View
+            style="@style/borderLineVertical" />
+
+        <TextView
+            android:id="@+id/myMusicSearchMusic"
+            style="@style/activityButtonHorizontal"
+            android:text="@string/my_music" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/activityLinearLayout">
+
+        <View
+            style="@style/borderLineHorizontal" />
+
+        <TextView
+            style="@style/activityStyle"
+            android:text="@string/searchMusic_activity"/>
+
+    </LinearLayout>
+
+</LinearLayout>

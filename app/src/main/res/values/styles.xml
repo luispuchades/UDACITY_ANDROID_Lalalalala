@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background_app</item>
+    </style>
+
+    <!--Style for frontal views at the app start-->
+    <style name="frontViewButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/buttonBackground</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:padding">@dimen/generalPadding</item>
+    </style>
+
+    <!--Style for frontal image-->
+    <style name="frontImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/frontImage_size</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--Style for border line Horizontal-->
+    <style name="borderLineHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/borderLine_height</item>
+        <item name="android:background">@color/borderLine</item>
+    </style>
+
+    <!--Style for border line Vertical-->
+    <style name="borderLineVertical">
+        <item name="android:layout_width">@dimen/borderLine_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/borderLine</item>
+    </style>
+
+    <!--ACTIVITY STYLES-->
+    <!--Activity Tittle Activity-->
+    <style name="activityTittle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--Activity Text Style-->
+    <style name="activityStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/textMarginTop</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/activityStyleText</item>
+        <item name="android:textSize">@dimen/textViewTextSize</item>
+        <item name="android:padding">@dimen/paddingActivity</item>
+        <item name="android:layout_marginLeft">@dimen/marginActivity</item>
+        <item name="android:layout_marginRight">@dimen/marginActivity</item>
+    </style>
+
+    <!--Activity Buttons Horizontal Style-->
+    <style name="activityButtonHorizontal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/buttonBackground</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:padding">@dimen/generalPadding</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--Activity Linear Layout Style-->
+    <style name="activityLinearLayout">
+        <item name="android:background">@color/background_app</item>
+    </style>
+</resources>

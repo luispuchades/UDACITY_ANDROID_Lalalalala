@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Dimensions
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="frontImage_size">260dp</dimen>
+    <dimen name="borderLine_height">2dp</dimen>
+    <dimen name="borderLine_width">2dp</dimen>
+    <dimen name="textMarginTop">96dp</dimen>
+    <dimen name="textViewTextSize">20sp</dimen>
+    <dimen name="generalPadding">16dp</dimen>
+    <dimen name="paddingActivity">16dp</dimen>
+    <dimen name="marginActivity">32dp</dimen>
+</resources>

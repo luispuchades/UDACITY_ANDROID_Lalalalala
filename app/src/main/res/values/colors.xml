@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Initial colorPrimary #3F51B5-->
+    <color name="colorPrimary">#3F51B5</color>
+    <!--Initial colorPrimaryDark #303F9F-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_app">#000000</color>
+
+    <color name="buttonBackground">#000000</color>
+    <color name="buttonText">#FFFFFF</color>
+    <color name="borderLine">#303F9F</color>
+    <color name="activityStyleText">#ffffff</color>
+</resources>
