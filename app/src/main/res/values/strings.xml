@@ -6,7 +6,7 @@
 
     <!--ACTIVITIES STRINGS-->
     <!--Search Music Activity-->
-    <string name="searchMusic_activity">The purpose of this activity is to search music through some input given into a EditText view. Then the search engine will look into the local saved files and also will propose a list of coincidences through an music internet service.</string>
+    <string name="searchMusic_activity">The purpose of this activity is to search music using the SearchView class.</string>
     <!--Playlist Activity-->
     <string name="playlist_activity">The purpose of this activity is to show a collection of playlist that previously have been created by the user. Each song or album has a contextual menu that appears when pushing long over the song title and the user will have the option to create a new playlist or add the current selection to an existing playlist</string>
     <!--My Music Activity-->
@@ -14,5 +14,8 @@
 
     //Toast Image Message
     <string name="image_message">If the main image at the front activity is pushed then as a default, the last song is played and the image is changed to the image related to the last song that now is playing.</string>
-    <string name="image_message1">In case that we selected a new song from the songlist or playlist then the image should change to the new song image.</string>
+    <string name="image_message1">In case that we selected a new song from the songlist or playlist then the image should change to the new song image. MediaPlayer Class will be used to play the song.</string>
+
+    //ClassToUse
+    <string name="classToUse">MediaPlayer class will be used to play the different songs in the device that appears listed here.</string>
 </resources>

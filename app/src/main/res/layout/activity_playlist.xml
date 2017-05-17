@@ -41,6 +41,10 @@
             style="@style/activityStyle"
             android:text="@string/playlist_activity"/>
 
+        <TextView
+            style="@style/activityStyle"
+            android:text="@string/classToUse" />
+
     </LinearLayout>
 
 </LinearLayout>
